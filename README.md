@@ -4,7 +4,7 @@
 This is my attempt at somewhat usable (for me) [NeoVim](https://neovim.io/) config
 
 ## Setup
-I use [vim-plug](https://github.com/junegunn/vim-p lug) to manage plugins, so you should just have to run `:PlugInstall`
+I use [vim-plug](https://github.com/junegunn/vim-plug) to manage plugins, so you should just have to run `:PlugInstall`
 to install all plugins
 
 ## Usage
