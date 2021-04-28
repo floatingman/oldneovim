@@ -8,4 +8,4 @@ I use [vim-plug](https://github.com/junegunn/vim-plug) to manage plugins, so you
 to install all plugins
 
 ## Usage
-Run `:PlugUpgrade` to keep them plugins updated.
+Run `:PlugUpgrade` and `:PlugUpdate` to keep them plugins updated.
