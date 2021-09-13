@@ -45,6 +45,10 @@ Plug 'sheerun/vim-polyglot'
 " Completion
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
@@ -67,6 +71,10 @@ Plug 'jlanzarotta/bufexplorer'
 
 " Tagbar
 Plug 'liuchengxu/vista.vim'
+
+" Tabbar
+"Plug 'kyazdani42/nvim-web-devicons'
+"Plug 'romgrk/barbar.nvim'
 
 "" Plugins used by pigmonkey (https://github.com/pigmonkey)
 Plug 'jamessan/vim-gnupg'
