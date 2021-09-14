@@ -44,6 +44,7 @@ Plug 'sheerun/vim-polyglot'
 
 " Completion
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'maralla/completor.vim'
 
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
