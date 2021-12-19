@@ -5,7 +5,7 @@ source $HOME/.config/nvim/config/plugins.vim
 source $HOME/.config/nvim/config/main.vim
 
 " Load plugin settings
-source $HOME/.config/nvim/config/plugin-settings.vim
+" source $HOME/.config/nvim/config/plugin-settings.vim
 
 " Load keymappings
 source $HOME/.config/nvim/config/mappings.vim

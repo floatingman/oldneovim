@@ -14,6 +14,18 @@
 
 "***********************************************************************************
 
+let mapleader = "\<space>"
+
+nmap <leader>ve :edit ~/.config/nvim/config/<cr>
+nmap <leader>vc :edit ~/.config/nvim/coc-settings.json<cr>
+nmap <leader>vr :source ~/.config/nvim/init.vim<cr>
+
+" Allow gf to open non-existent files
+map gf :edit <cfile><cr>
+
+" Open the current file in the default program
+nmap <leader>x :!xdg-open %<cr><cr>
+
 " Window Navigation
 " Navigate to left window.
 nnoremap <C-h> <C-w>h
@@ -24,24 +36,15 @@ nnoremap <C-k> <C-w>k
 " Navigate to right window.
 nnoremap <C-l> <C-w>l
 " Horizontal split then move to bottom window.
-nnoremap <Leader>- <C-w>s
+nnoremap <leader>- <C-w>s
 " Vertical split then move to right window.
-nnoremap <Leader>\| <C-w>v<C-w>l
+nnoremap <leader>\| <C-w>v<C-w>l
 " Kill buffer with Space+bk
 nnoremap<silent> <Space>bk :bdelete<CR>
 
-nnoremap [q   :cprevious<CR>
-nnoremap ]q   :cnext<CR>
-nnoremap [Q   :cfirst<CR>
-nnoremap ]Q   :clast<CR>
-
-" Copying
-nmap <leader><leader> V
-nmap <leader>y "+y
 
 " Faster ESC
-inoremap jk <ESC>
-inoremap kj <ESC>
+imap jj <ESC>
 
 " function keys
 map <F1> :set number!<CR> :set relativenumber!<CR>
