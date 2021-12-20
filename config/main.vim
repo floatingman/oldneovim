@@ -85,12 +85,6 @@ set scrolloff=8
 " Show next 5 columns while side-scrolling.
 set sidescrolloff=8
 
-" Jump to the last known position when reopening a file.
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
-    \| exe "normal! g'\"" | endif
-endif
-
 " Relative line numbers
 set number
 augroup numbertoggle
