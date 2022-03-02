@@ -51,6 +51,7 @@ source ~/.config/nvim/plugins/vim-test.vim
 source ~/.config/nvim/plugins/visual-multi.vim
 source ~/.config/nvim/plugins/visual-star-search.vim
 source ~/.config/nvim/plugins/which-key.vim
+source ~/.config/nvim/plugins/vim-sneak.vim
 
 "" Syntax Highlighting
 "Plug 'ap/vim-css-color'
