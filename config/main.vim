@@ -140,3 +140,7 @@ autocmd VimLeave * call system("xsel -ib", getreg('+'))
 
 " drop comment symbols when joining lines
 set formatoptions+=j
+
+" Set Python neovim path
+let g:python_host_prog = '~/.pyenv/versions/neovim2/bin/python'
+let g:python3_host_prog = '~/.pyenv/versions/neovim3/bin/python'
