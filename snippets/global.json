@@ -1,0 +1,17 @@
+{
+  "gmail": {
+    "prefix": "gmail",
+    "body": "dwnewman78@gmail.com",
+    "description": "Gmail address"
+  },
+  "dlp": {
+    "prefix": "dlp",
+    "body": "dan@danlovesprogramming.com",
+    "description": "Dan Loves Programming email"
+  },
+  "bhl": {
+    "prefix": "bhl",
+    "body": "dan@bigheartedlabs.com",
+    "description": "BigHeartedLabs email"
+  }
+}
